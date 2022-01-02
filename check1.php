@@ -93,16 +93,16 @@ $errsid="";
         </form>
         <?php
              if($length==0){
-              $tag='<div class="result">you are not registered<br></div>';
+              $tag='<h2 class="result">you are not registered!!, send request first to check your acceptence.</h2>';
                 echo $tag;
             }
             else{
               if($accept==1){
-                $tag='<div class="result">you are accepted<br></div>';
+                $tag='<h2 class="result">you are accepted in the university city,go with your paper to the university city to complete your register.</h2>';
                 echo $tag;
               }
               else{
-                $tag='<div class="result">you are not accepted</div>';
+                $tag='<h2 class="result">Unfortunately,you are not accepted couse you do not meet the conditions set to apply.</h2>';
                 echo $tag;
               }
             }
