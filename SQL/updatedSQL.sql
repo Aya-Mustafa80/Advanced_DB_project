@@ -40,11 +40,11 @@ returns bool
 begin
 if (gpa<2.0  )then
 return false;
-elseif ((dis>=90&&dis<=150)&&(gpa>=2.7)) then
+elseif ((dis>=90 AND dis<=150)AND(gpa>=2.7)) then
 return true;
-elseif ((dis>=150)&&(gpa>=2.3)) then
+elseif ((dis>=150)AND(gpa>=2.3)) then
 return true;
-elseif ((dis<90)&&(gpa>=3.0)) then
+elseif ((dis<90)AND(gpa>=3.0)) then
 return true;
 else
 return false;
